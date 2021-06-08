@@ -1,15 +1,16 @@
-#Sections
-- [Introduction](#Introduction)
-- [Usage](#Usage)
+# Sections
+- [Sections](#sections)
+- [Introduction](#introduction)
+- [Usage](#usage)
 
-#Introduction
+# Introduction
 This is a simple IOT project used to control a LED on an **ESP32** using **MicroPython**.
 After connecting the ESP32 to the USB serial port and rebooting it, the ESP32 asks the user for the network's SSID and password, then it does an http get request on a server uploaded on a free domain to check the state of the LED settings and control it. 
 The user can control the state of the LED on the site easily from any web browser.
 
 This project is part of a bigger project, where **mobile** and **desktop apps** will control the state of the LED through overwriting on the site, then the ESP32 controls the LED.
 
-#Usage
+# Usage
 To get started, make sure you have the following programs installed:
 - python3.
 - picocom.
